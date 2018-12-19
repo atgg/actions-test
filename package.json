@@ -1,0 +1,7 @@
+{
+  "name": "actions-test",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo Hello!; exit 0"
+  }
+}
