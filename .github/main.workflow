@@ -1,9 +1,9 @@
 workflow "Push" {
   on = "push"
-  resolves = ["GitHub Action for npm"]
+  resolves = ["Test"]
 }
 
-action "GitHub Action for npm" {
+action "Test" {
   uses = "actions/npm@c555744"
   args = "test"
 }
